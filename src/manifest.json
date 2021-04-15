@@ -1,11 +1,11 @@
 {
-  "name": "web",
-  "short_name": "web",
+  "name": "Lukujärkkäri",
+  "short_name": "Lukujärkkäri",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",
