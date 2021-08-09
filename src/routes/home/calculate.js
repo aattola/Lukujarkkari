@@ -34,12 +34,17 @@ export const calculate = async (urls) => {
       }
     })
 
+
     toka.forEach(tokka => {
       const event = tokka[1]
+    console.log(toka, event )
       if (event.type == "VEVENT") {
         if (firstList[event.summary]) {
+          // console.log(event)
+          if (!event.rrule) return
           const until = event.rrule.split(';')[1]
           const endDat = until.split('=')[1]
+          // const endDat = event.end
           const endDate = dayjs(endDat)
           const menikö = endDate.isBefore(dayjs())
           sameList[event.summary] = {...event, past: menikö}
