@@ -19,7 +19,7 @@ html, body {
 	height: 100%;
 }
 
-.header__3QGkI {
+.header__3ax1h {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -31,7 +31,7 @@ html, body {
 	z-index: 50;
 }
 
-.header__3QGkI h1 {
+.header__3ax1h h1 {
 	float: left;
 	margin: 0;
 	padding: 0 15px;
@@ -41,12 +41,12 @@ html, body {
 	color: #FFF;
 }
 
-.header__3QGkI nav {
+.header__3ax1h nav {
 	float: right;
 	font-size: 100%;
 }
 
-.header__3QGkI nav a {
+.header__3ax1h nav a {
 	display: inline-block;
 	height: 56px;
 	line-height: 56px;
@@ -59,26 +59,26 @@ html, body {
 	will-change: background-color;
 }
 
-.header__3QGkI nav a:hover,
-.header__3QGkI nav a:active {
+.header__3ax1h nav a:hover,
+.header__3ax1h nav a:active {
 	background: rgba(0,0,0,0.2);
 }
 
-.header__3QGkI nav a.active__3gItZ {
+.header__3ax1h nav a.active__2XB2z {
 	background: rgba(0,0,0,0.4);
 }
 
-.home__MseGd {
+.home__5d1wS {
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
 }
 
-.profile__t2Dqz {
+.profile__11nNM {
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
 }
 
 
-/*# sourceMappingURL=ssr-bundle.f215e.css.map*/
+/*# sourceMappingURL=ssr-bundle.a7866.css.map*/
